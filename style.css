@@ -1,0 +1,108 @@
+
+* {
+    margin: 0;
+        padding: 0;
+            box-sizing: border-box;
+            }
+
+            html {
+                scroll-behavior: smooth;
+                }
+
+                body {
+                    font-family: Arial, sans-serif;
+                        background: #080b16;
+                            color: white;
+                                min-height: 100vh;
+                                }
+
+                                header {
+                                    display: flex;
+                                        justify-content: space-between;
+                                            align-items: center;
+                                                padding: 22px 8%;
+                                                    background: #101528;
+                                                        border-bottom: 1px solid #252d48;
+                                                        }
+
+                                                        header h2 {
+                                                            color: #8b7cff;
+                                                                letter-spacing: 2px;
+                                                                }
+
+                                                                nav {
+                                                                    display: flex;
+                                                                        gap: 25px;
+                                                                        }
+
+                                                                        nav a {
+                                                                            color: white;
+                                                                                text-decoration: none;
+                                                                                    font-size: 15px;
+                                                                                        transition: 0.3s;
+                                                                                        }
+
+                                                                                        nav a:hover {
+                                                                                            color: #8b7cff;
+                                                                                            }
+
+                                                                                            main {
+                                                                                                min-height: 85vh;
+                                                                                                    display: flex;
+                                                                                                        flex-direction: column;
+                                                                                                            align-items: center;
+                                                                                                                justify-content: center;
+                                                                                                                    text-align: center;
+                                                                                                                        padding: 30px 20px;
+                                                                                                                            background:
+                                                                                                                                    radial-gradient(circle at center, #252052 0%, #080b16 65%);
+                                                                                                                                    }
+
+                                                                                                                                    main h1 {
+                                                                                                                                        font-size: clamp(32px, 6vw, 65px);
+                                                                                                                                            margin-bottom: 20px;
+                                                                                                                                                background: linear-gradient(90deg, #ffffff, #9b8cff);
+                                                                                                                                                    -webkit-background-clip: text;
+                                                                                                                                                        -webkit-text-fill-color: transparent;
+                                                                                                                                                        }
+
+                                                                                                                                                        main p {
+                                                                                                                                                            color: #b5bad0;
+                                                                                                                                                                font-size: 17px;
+                                                                                                                                                                    line-height: 1.7;
+                                                                                                                                                                        max-width: 550px;
+                                                                                                                                                                            margin-bottom: 30px;
+                                                                                                                                                                            }
+
+                                                                                                                                                                            button {
+                                                                                                                                                                                padding: 15px 32px;
+                                                                                                                                                                                    background: #7865ff;
+                                                                                                                                                                                        color: white;
+                                                                                                                                                                                            border: none;
+                                                                                                                                                                                                border-radius: 8px;
+                                                                                                                                                                                                    font-size: 16px;
+                                                                                                                                                                                                        cursor: pointer;
+                                                                                                                                                                                                            transition: 0.3s;
+                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                            button:hover {
+                                                                                                                                                                                                                background: #5944e8;
+                                                                                                                                                                                                                    transform: translateY(-3px);
+                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                    @media (max-width: 500px) {
+                                                                                                                                                                                                                        header {
+                                                                                                                                                                                                                                padding: 18px 15px;
+                                                                                                                                                                                                                                        flex-direction: column;
+                                                                                                                                                                                                                                                gap: 18px;
+                                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                                        nav {
+                                                                                                                                                                                                                                                                gap: 18px;
+                                                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                                                        nav a {
+                                                                                                                                                                                                                                                                                font-size: 13px;
+                                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                    
