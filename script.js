@@ -40,4 +40,10 @@ genreButtons.forEach((button) => {
     filterMovies();
   });
 });
+<script src="script.js"></script>
+
+<!-- Yahan Firebase configuration code paste karo -->
+
+</body>
+</html>
     
